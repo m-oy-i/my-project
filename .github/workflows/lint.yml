@@ -1,0 +1,26 @@
+name: Markdown 检查
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - '.markdownlint.json'
+      - '.github/workflows/lint.yml'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 检查 Markdown 格式
+        run: npx --yes markdownlint-cli "**/*.md" --ignore node_modules

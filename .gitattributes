@@ -1,0 +1,8 @@
+# 仓库内统一以 LF 存储，避免 Windows/macOS/Linux 之间换行符抖动
+* text=auto
+
+*.sh   text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
