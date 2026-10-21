@@ -11,6 +11,7 @@
 | [`docs/git-cheatsheet.md`](docs/git-cheatsheet.md) | Git 常用操作速查，含撤销、找回、改写历史、报错排查 |
 | [`docs/github-workflow.md`](docs/github-workflow.md) | 分支策略、PR 流程、Issue、Actions 与 Release |
 | [`docs/windows-dev-setup.md`](docs/windows-dev-setup.md) | Windows 下的开发环境、终端、SSH 与换行符配置 |
+| [`docs/ai-github-radar.md`](docs/ai-github-radar.md) | GitHub 上的 AI 资源雷达：Agent Skills、提示词库、可玩工具（2026-10-21 快照） |
 | [`scripts/repo-check.sh`](scripts/repo-check.sh) | 仓库体检：未提交、未推送、大文件、敏感文件 |
 | [`scripts/git-sync.sh`](scripts/git-sync.sh) | 一条命令完成 add / commit / push |
 | [`CHANGELOG.md`](CHANGELOG.md) | 变更记录 |
