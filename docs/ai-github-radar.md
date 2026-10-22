@@ -39,6 +39,8 @@ description: 这个 skill 做什么、什么时候该用它
 
 正文写指令、示例、约束。描述字段很关键，agent 靠它判断要不要加载。
 
+完整的字段约束、加载机制和常见坑，见 [怎么写一个 Agent Skill](how-to-write-a-skill.md)。
+
 ## 二、提示词库
 
 | 仓库 | 约 star | 说明 |

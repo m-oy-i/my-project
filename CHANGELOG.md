@@ -7,6 +7,8 @@
 ### 新增
 
 - `docs/ai-github-radar.md`：GitHub AI 资源雷达，按 Agent Skills、提示词库、可玩工具、上下文优化四类整理，含 star 快照与选型建议
+- `docs/how-to-write-a-skill.md`：按 Agent Skills 官方规范写 skill，含字段约束、渐进式加载机制与常见坑
+- `scripts/check-links.sh`：扫描 Markdown 外链，可识别「网络不通」与「链接失效」两种失败
 
 ## [0.1.0] - 2026-10-21
 
